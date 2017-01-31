@@ -1,0 +1,11 @@
+{
+  "name": "sabrina",
+  "version": "0.0.1",
+  "dependencies": {},
+  "scripts": {
+    "start": "list ./index.html"
+  },
+  "dependencies": {
+    "list": "latest"
+  }
+}
