@@ -122,6 +122,61 @@ Menu
 	}
 }
 
+
+/*************
+
+EVENEMENT
+
+*************/
+
+main{
+  background-image: url(../images/456742813-1-1.jpg);
+  background-size: cover;
+}
+
+section{
+  background: #fff;
+}
+
+section.evenement{
+  color: #000;
+  min-height: 400px;
+  border-bottom: 1px solid #000;
+}
+
+nav.menuEvenement{
+ margin-bottom: 100px; 
+}
+
+nav.menuEvenement ul{
+  list-style-type: none;
+}
+
+nav.menuEvenement ul li{
+  text-align: center
+}
+
+
+#mai, #juin, #juillet{
+  display: none;
+}
+
+#mai:target, #juin:target, #juillet:target{
+  display: block;
+}
+
+section#partage div{
+  margin-bottom: 20px;
+}
+
+div.post{
+  max-height: 150px;
+}
+
+div.post img{
+  max-height: 100%
+}
+
 /*************
 
 FOOTER

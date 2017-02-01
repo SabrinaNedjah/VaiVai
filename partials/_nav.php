@@ -8,7 +8,7 @@
 			<div class="top-bar-left">
 				<ul class="dropdown menu" data-dropdown-menu>
 					<li class="menu-text show-for-medium hide-for-small"><a href="index.php"><img src="images/logo.png" alt="logo"/></a></li>
-					<li><a href="#">Coconut Tour</a></li>
+					<li><a href="coconut_tour.php">Coconut Tour</a></li>
 					<li><a href="coconutTv.php">Coconut Tv</a></li>
 					<li><a href="#">A Propos</a></li>
 					<li><a href="https://twitter.com/vaivaiconnexion" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
