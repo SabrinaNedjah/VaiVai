@@ -1,7 +1,8 @@
 	<!-- Slide -->
+	
   <div class="monSlider row">
     <div class="monSlider-slide">
-      <img src="images/slide/huile_coco.png" alt="Titre Image" />
+      <img src="images/coconut.jpg" alt="Titre Image" />
       <div class="informations">
         <h2>Titre de ma slide</h2>
         <p>
@@ -10,7 +11,7 @@
       </div>
     </div>
     <div class="monSlider-slide">
-      <img src="images/slide/huile_coco.png" alt="Titre Image" />
+      <img src="images/coconut.jpg" alt="Titre Image" />
       <div class="informations">
         <h2>Titre de ma slide 3</h2>
         <p>
