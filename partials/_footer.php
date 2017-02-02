@@ -36,6 +36,7 @@
 <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="scripts/vendor/slick.min.js"></script>
 <script src="scripts/vendor/foundation.min.js"></script>
+<script src="scripts/script.js"></script>
 
 <script type="text/javascript">
 	$(document).foundation();

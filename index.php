@@ -1,6 +1,8 @@
-<?php include('partials/_header.php'); ?>
-<?php include('partials/_nav.php'); ?>
-<?php include("partials/_slider.php"); ?>
+<?php
+include('partials/_header.php');
+include('partials/_nav.php');
+include("partials/_slider.php");
+?>
 <section class="communaute-accroche">
 
 	<section class="section-intro">

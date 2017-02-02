@@ -1,13 +1,13 @@
 @font-face {
-	font-family: mainlevee;
-	src: url('../fonts/mainlevee.ttf');
+  font-family: mainlevee;
+  src: url('../fonts/mainlevee.ttf');
 }
 
 body{
-	margin:0;
-	padding: 0;
-	background-color: #FFFFFF;
-	color: aliceblue;
+  margin:0;
+  padding: 0;
+  background-color: #FFFFFF;
+  color: aliceblue;
 
 }
 
@@ -18,44 +18,44 @@ SLIDER
 *************/
 
 .slick-dotted.slick-slider {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 .monSlider{
-	max-width: 65em;
-	margin: 0;
+  max-width: 100%;
+  margin: 0;
 }
 .monSlider-slide img{
-	position : relative;
-	max-width: 100%;
+  position : relative;
+  max-width: 100%;
 
 }
 .monSlider-slide{
-	position : relative;
+  position : relative;
 
 }
 
 .monSlider-slide .informations{
-	position:absolute;
-	background:rgba(255,255,255,0.6);
-	bottom:0;
-	left:0;
-	width:100%;
+  position:absolute;
+  background:rgba(255,255,255,0.6);
+  bottom:0;
+  left:0;
+  width:100%;
 }
 
 .informations p, .informations h2{
-	padding-left:20px;
-	padding-right:20px;
+  padding-left:20px;
+  padding-right:20px;
 }
 
 .slick-prev{
-	left:25px;
-	z-index:99;
+  left:25px;
+  z-index:99;
 }
 
 .slick-next{
-	right:25px;
-	z-index:99;
+  right:25px;
+  z-index:99;
 }
 
 /*************
@@ -64,11 +64,11 @@ Section Communaute
 
 *************/
 .communaute-accroche {
-	background-color: #001623;
-	background-image: url("../images/banniere-palmer.png");
-	background-size: initial;
-	background-position: center top;
-	padding-bottom: 60px;
+  background-color: #001623;
+  background-image: url("../images/banniere-palmer.png");
+  background-size: initial;
+  background-position: center top;
+  padding-bottom: 60px;
 }
 
 /*************
@@ -77,105 +77,51 @@ Menu
 
 *************/
 .top-bar, .top-bar ul, .top-bar li {
-	height: 60px;
-	background-color: transparent;
-	height: 60px;
-	margin: 0 auto;
-	position: relative;
+  height: 60px;
+  background-color: transparent;
+  height: 60px;
+  margin: 0 auto;
+  position: relative;
 
 }
 
 .top-bar{
-	box-shadow: 0px 1px 3px 1px rgba(0,0,0,.1);
-	padding: 0;
-	font-family: mainlevee;
-	font-size: 20px;
-	color: #000000;
-	padding-bottom: 70px;
+  box-shadow: 0px 1px 3px 1px rgba(0,0,0,.1);
+  padding: 0;
+  font-family: mainlevee;
+  font-size: 20px;
+  color: #000000;
+  padding-bottom: 70px;
 }
 
 .menu-text{
-	padding: 0;
+  padding: 0;
 }
 
 .menu-text img{
-	height: 50px;
+  height: 50px;
 }
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
-	.title-bar-title img{
-		height: 30px;
-	}
-	.title-bar{
-		background-color: antiquewhite;
-	}
-	.top-bar li{
-		text-align: center;
-		display: block;
-		width: 100%;
-		background-color:transparent;
+  .title-bar-title img{
+    height: 30px;
+  }
+  .title-bar{
+    background-color: antiquewhite;
+  }
+  .top-bar li{
+    text-align: center;
+    display: block;
+    width: 100%;
+    background-color:transparent;
 
-	}
-	.top-bar, .top-bar ul, .top-bar li{
-		height: auto;
-	}
+  }
+  .top-bar, .top-bar ul, .top-bar li{
+    height: auto;
+  }
 }
 
-
-/*************
-
-EVENEMENT
-
-*************/
-
-main{
-  background-image: url(../images/456742813-1-1.jpg);
-  background-size: cover;
-}
-
-section{
-  background: #fff;
-}
-
-section.evenement{
-  color: #000;
-  min-height: 400px;
-  border-bottom: 1px solid #000;
-}
-
-nav.menuEvenement{
- margin-bottom: 100px; 
-}
-
-nav.menuEvenement ul{
-  list-style-type: none;
-}
-
-nav.menuEvenement ul li{
-  text-align: center
-}
-
-
-#mai, #juin, #juillet{
-  display: none;
-}
-
-#mai:target, #juin:target, #juillet:target{
-  display: block;
-}
-
-section#partage div{
-  margin-bottom: 20px;
-}
-
-div.post{
-  max-height: 150px;
-}
-
-div.post img{
-  max-height: 100%
-}
 
 /*************
 
@@ -185,32 +131,32 @@ FOOTER
 
 
 footer{
-	font-family: sans-serif;
-	font-weight: 200;
-	background-color: #FFFFFF;
-	height: 500px;
-	color: #929292;
-	text-align: center;
-	margin: 0px 0 0;
-	padding-top: 40px;
-	box-sizing:border-box;
-	box-shadow: 0px 1px 3px 5px rgba(0,0,0,.1);
-	clear:both;
+  font-family: sans-serif;
+  font-weight: 200;
+  background-image: url(../images/fond-pattern-wood.jpg);
+  height: 300px;
+  color: #929292;
+  text-align: center;
+  margin: 0px 0 0;
+  padding-top: 40px;
+  box-sizing:border-box;
+  box-shadow: 0px 1px 3px 5px rgba(0,0,0,.1);
+  clear:both;
 }
 
 footer a{
-	color: inherit;
-	text-decoration: none;
-	font-size: 15px;
+  color: inherit;
+  text-decoration: none;
+  font-size: 15px;
 }
 
 footer ul{
-	margin: 0 0 30px;
+  margin: 0 0 30px;
 }
 
 footer li{
-	display: inline-block;
-	padding:  0 15px;
+  display: inline-block;
+  padding:  0 15px;
 }
 /*
 footer p {
@@ -227,18 +173,94 @@ INDEX
 ************/
 
 div {
-	text-align:center;
-	}
+  text-align:center;
+}
 div#contenu {
-	width:50%;
-	height:400px;
-	background-image: url(../images/banniere.png);
-	float:left;
-	}
+  width:50%;
+  height:400px;
+  background-image: url(../images/banniere.png);
+  float:left;
+}
 
 div#menu {
-	float:left;
-	width:50%;
-	height:400px;
-	background-color:#FF6699;
-	}
+  float:left;
+  width:50%;
+  height:400px;
+  background-color:#FF6699;
+}
+
+
+/*************
+
+COCONUTTOUR
+
+**************/
+
+main#coconutTour{
+  background-image: url(../images/456742813-1-1.jpg);
+  background-size: cover;
+  color: #000;
+}
+
+main > section{
+  background: #fff;
+}
+
+/* TIME LINE */
+
+
+
+
+/* DESCRIPTION */
+
+section.descriptionCoconutTour{
+  background-image: url(../images/);
+}
+
+section.descriptionCoconutTour h3{
+  font-family: "BigBimboNC";
+}
+
+section.descriptionCoconutTour p{
+  font-family: "TerminalDosis";
+}
+
+
+/* DATES */
+
+section.eventDate{
+  min-height: 400px;
+  border-bottom: 1px solid #000;
+}
+
+nav.menuEventdate{
+  margin-bottom: 100px;
+}
+
+nav.menuEventDate ul{
+  list-style-type: none;
+}
+
+nav.menuEventDate ul li.button{
+  text-align: center;
+  background-image: url(../images/fond-pattern-wood.jpg);
+  color: #000
+}
+
+.listeJuin, .listeJuillet{
+  display:none;
+}
+
+/* PARTAGE */
+
+section#partage div{
+  margin-bottom: 20px;
+}
+
+div.post{
+  max-height: 150px;
+}
+
+div.post img{
+  max-height: 100%
+}
