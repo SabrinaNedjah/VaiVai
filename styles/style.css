@@ -133,7 +133,7 @@ FOOTER
 footer{
   font-family: sans-serif;
   font-weight: 200;
-  background-image: url(../images/fond-pattern-wood.jpg);
+  background-image: url(../images/banniere-palmer.png);
   height: 300px;
   color: #929292;
   text-align: center;
@@ -147,7 +147,7 @@ footer{
 footer a{
   color: inherit;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 footer ul{
@@ -203,7 +203,7 @@ main#coconutTour{
 }
 
 main > section{
-  background: #fff;
+  background: rgba(255, 255, 255, 0.8);
 }
 
 /* TIME LINE */
@@ -212,10 +212,6 @@ main > section{
 
 
 /* DESCRIPTION */
-
-section.descriptionCoconutTour{
-  background-image: url(../images/);
-}
 
 section.descriptionCoconutTour h3{
   font-family: "BigBimboNC";
@@ -237,14 +233,13 @@ nav.menuEventdate{
   margin-bottom: 100px;
 }
 
-nav.menuEventDate ul{
+section.eventDate ul{
   list-style-type: none;
 }
 
 nav.menuEventDate ul li.button{
-  text-align: center;
-  background-image: url(../images/fond-pattern-wood.jpg);
-  color: #000
+  background: #003245;
+  color: #A2FFC9;
 }
 
 .listeJuin, .listeJuillet{
