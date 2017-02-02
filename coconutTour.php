@@ -13,7 +13,8 @@ require('partials/_nav.php');
         <div class="columns medium-8 small-12">
           <h2>Le Coconut Tour</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos harum blanditiis maxime, facilis, porro saepe tempora ullam id excepturi neque voluptate. In natus earum magnam minima autem aperiam voluptate quis.
+           De mai à juillet, un combi décoré aux couleurs de Vaïvaï voyagera dans divers événements parisiens. Seulement 38% de la population connaît le vrai goût de l’eau de coco, et vous aurez donc la possibilité de participer aux dégustations organisées par Vaïvaï en allant à la rencontre du van.En partageant sur les réseaux sociaux vos moments à l’Adidas Runner, aux séances de gym suédoise, au festival We Love Green ou encore au Fnac Live Festival, avec votre bouteille VaïVaï vous pourrez tenter de gagner de nombreux lots. Vous pourrez trouver ci-dessous la liste et les dates des événements pour retrouver notre van Vaïvaï !
+
           </p>
         </div>
       </section>
