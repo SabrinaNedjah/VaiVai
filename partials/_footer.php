@@ -48,6 +48,7 @@
 <script type="text/javascript" src="scripts/vendor/slick.min.js"></script>
 <script src="scripts/script.js"></script>
 <script src="scripts/vendor/foundation.min.js"></script>
+<script src="scripts/script.js"></script>
 
 <script type="text/javascript">
 	$(document).foundation();
