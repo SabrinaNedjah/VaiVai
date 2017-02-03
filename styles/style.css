@@ -44,11 +44,11 @@ Menu
 }
 
 .top-bar a:hover{
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .top-bar-left a:link{
-  color:#000000;
+	color:#000000;
 }
 
 .top-bar{
@@ -134,7 +134,7 @@ INDEX
 }
 
 .jeuxConcours img{
-  margin-top: 25px;
+	margin-top: 25px;
 }
 
 .tag{
@@ -164,7 +164,7 @@ div {
 }
 
 .contener a {
-  margin-top: 25px;
+	margin-top: 25px;
 }
 
 .contenerMap{
@@ -176,24 +176,24 @@ div {
 }
 
 #map canvas{
-  left: 0;
+	left: 0;
 }
 
 .contenerPartage	{
 	background-image: url("../images/patternpalmer.png");
 	max-width: 100%;
 	text-align: center;
-  padding: 50px 0 0;
+	padding: 50px 0 0;
 	font-family: TerminalDosisBold;
 	color: #000000;
 }
 
 .contenerPartage h2{
-  margin-bottom: 50px;
+	margin-bottom: 50px;
 }
 
 .contenerPartage>div{
-  margin-bottom: 50px;
+	margin-bottom: 50px;
 }
 
 #partage{
@@ -242,15 +242,15 @@ COCONUTTOUR
 ******************/
 
 .descriptionCoconutTour{
-  padding: 50px 0;
+	padding: 50px 0;
 }
 
 .descriptionCoconutTour h2{
-  text-align: left;
+	text-align: left;
 }
 
 .descriptionCoconutTour p{
-  text-align: left;
+	text-align: left;
 }
 
 #coconutTour h2{
@@ -273,7 +273,7 @@ section.eventDate h4 {
 
 section.eventDate{
 	min-height: 375px;
-  padding: 50px 0 50px;
+	padding: 50px 0 50px;
 	background-image: url(../images/bois.jpg);
 	text-align: center;
 }
@@ -394,30 +394,30 @@ footer li{
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
-  .title-bar-title{
-    width: calc(100% - 60px);
-  }
+	.title-bar-title{
+		width: calc(100% - 60px);
+	}
 
-  .top-bar a{
-    color: black;
-  }
+	.top-bar a{
+		color: black;
+	}
 
-  .top-bar{
-    padding: 0;
-  }
+	.top-bar{
+		padding: 0;
+	}
 
 	.title-bar-title img{
 		height: 30px;
 	}
 
 	.title-bar{
-    text-align: left;
+		text-align: left;
 		background-color: antiquewhite;
 	}
 
-  .textContener{
-    margin: 0 20px;
-  }
+	.textContener{
+		margin: 0 20px;
+	}
 
 	.top-bar li{
 		text-align: center;
@@ -426,7 +426,7 @@ footer li{
 		background-color:transparent;
 
 	}
-  
+
 	.top-bar, .top-bar ul, .top-bar li{
 		height: auto;
 	}

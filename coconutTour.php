@@ -4,7 +4,6 @@ require('partials/_nav.php');
 ?> <!-- HEADER -->
 <main id="coconutTour">
 	<div id="fb-root"></div>
-
 	<!-- Présentation du Coconut Tour -->
 	<section class="row descriptionCoconutTour">
 		<div class="columns medium-5 small-12">
@@ -215,7 +214,6 @@ require('partials/_nav.php');
 				});
 			}, 300);
 		</script>
-
 		<!-- widget twitter facebook -->
 		<section class="row" id="partage" data-equalizer="bloc_1">
 			<div class="contenerPartage">
@@ -226,18 +224,7 @@ require('partials/_nav.php');
 				<div class="columns medium-6 small-12 post" data-equalizer-watch="bloc_1">
 					<div class="fb-page" data-href="https://www.facebook.com/vaivaifrance/" data-tabs="timeline" data-width="400" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/vaivaifrance/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/vaivaifrance/">Vaïvaï - Eau de Coco 100% Naturelle</a></blockquote></div>
 				</div>
-
 			</div>
-			<!-- <div class="columns medium-6 small-12 post" data-equalizer-watch="bloc_1">
-
-
-</div>
-<div class="columns medium-6 small-12 post" data-equalizer-watch="bloc_1">
-<p>
-
-
-</p>
-</div> -->
 		</section>
 		</main>
 	<?php require('partials/_footer.php'); ?>

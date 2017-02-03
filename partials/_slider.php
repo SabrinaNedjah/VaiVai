@@ -1,5 +1,4 @@
 <!-- Slide -->
-
 <div class="monSlider row">
 	<div class="monSlider-slide">
 		<img src="images/slide/produitvaivai.png" alt="Titre Image" />

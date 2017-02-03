@@ -2,7 +2,6 @@
 <?php include('partials/_nav.php'); ?>
 <?php include("partials/_slider.php"); ?>
 <section class="jeuxConcours">
-
 	<section class="section-intro">
 		<div class="row">
 			<div class="small-10 small-centered">
@@ -20,15 +19,9 @@
 	<div class="textContener"> Venez à la rencontre du combi Volkswagen Vaïvaï afin de découvrir le goût de l’eau de coco grâce à nos dégustations ! Le Coconut Tour passera par de nombreux évènements en région parisienne tout au long de l’été et vous permettra de goûter à la vraie coco ! </div>
 	<a href="coconutTv.php" class="bouton">En Savoir plus</a>
 </div>
-
 <div class="contener">
-
 	<h2 class="titreContener">CocoTour</h2>
 	<div class="textContener">  évènements qui auront lieu durant le Coconut Tour ou même tout simplement pour vous donner envie d’y aller, Vaïvaï a mis en place Coconut.tv ! Via notre chaîne YouTube vous pourrez suivre toutes nos aventures en vidéo !</div>
-
 	<a href="coconutTour.php" class="bouton">En Savoir plus</a>
 </div>
-
-
-
 <?php include("partials/_footer.php"); ?>
