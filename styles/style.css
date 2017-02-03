@@ -1,32 +1,32 @@
 @font-face {
-  font-family: mainlevee;
-  src: url('../fonts/mainlevee.ttf');
+	font-family: mainlevee;
+	src: url('../fonts/mainlevee.ttf');
 }
 @font-face {
-  font-family: alamain;
-  src: url('../fonts/alamain.ttf');
-}
-
-@font-face {
-  font-family: TerminalDosisBold;
-  src: url('../fonts/TerminalDosis-Bold.ttf');
+	font-family: alamain;
+	src: url('../fonts/alamain.ttf');
 }
 
 @font-face {
-  font-family: TerminalDosisRegular;
-  src: url('../fonts/TerminalDosis-VaivaiRegular.ttf');
+	font-family: TerminalDosisBold;
+	src: url('../fonts/TerminalDosis-Bold.ttf');
 }
 
 @font-face {
-  font-family: Big Bimbo NC;
-  src: url('../fonts/Big Bimbo NC.ttf');
+	font-family: TerminalDosisRegular;
+	src: url('../fonts/TerminalDosis-VaivaiRegular.ttf');
+}
+
+@font-face {
+	font-family: Big Bimbo NC;
+	src: url('../fonts/Big Bimbo NC.ttf');
 }
 
 body{
-  margin:0;
-  padding: 0;
-  background-color: #FFFFFF;
-  color: #000000;
+	margin:0;
+	padding: 0;
+	background-color: #FFFFFF;
+	color: #000000;
 }
 
 
@@ -36,49 +36,36 @@ Menu
 
 *************/
 .top-bar, .top-bar ul, .top-bar li {
-  height: 60px;
-  background-color: transparent;
-  height: 60px;
-  margin: 0 auto;
-  position: relative;
+	height: 60px;
+	background-color: transparent;
+	height: 60px;
+	margin: 0 auto;
+	position: relative;
+}
 
+.top-bar a:hover{
+  cursor: pointer;
+}
+
+.top-bar-left a:link{
+  color:#000000;
 }
 
 .top-bar{
-  box-shadow: 0px 1px 3px 1px rgba(0,0,0,.1);
-  padding: 0;
-  font-family: mainlevee;
-  font-size: 20px;
-  color: #000000;
-  padding-bottom: 70px;
+	box-shadow: 0px 1px 3px 1px rgba(0,0,0,.1);
+	padding: 0;
+	font-family: mainlevee;
+	font-size: 20px;
+	color: #000000;
+	padding-bottom: 70px;
 }
 
 .menu-text{
-  padding: 0;
+	padding: 0;
 }
 
 .menu-text img{
-  height: 50px;
-}
-
-/* Small only */
-@media screen and (max-width: 39.9375em) {
-  .title-bar-title img{
-    height: 30px;
-  }
-  .title-bar{
-    background-color: antiquewhite;
-  }
-  .top-bar li{
-    text-align: center;
-    display: block;
-    width: 100%;
-    background-color:transparent;
-
-  }
-  .top-bar, .top-bar ul, .top-bar li{
-    height: auto;
-  }
+	height: 50px;
 }
 
 /*************
@@ -88,48 +75,48 @@ SLIDER
 *************/
 
 .slick-dotted.slick-slider {
-  max-width: 100%;
-  margin-bottom: 0px;
+	max-width: 100%;
+	margin-bottom: 0px;
 }
 
 .slick-dots{
-  bottom: 0px;
+	bottom: 0px;
 }
 .monSlider{
-  max-width: 65em;
-  margin: 0;
+	max-width: 65em;
+	margin: 0;
 }
 .monSlider-slide img{
-  position : relative;
-  max-width: 100%;
+	position : relative;
+	max-width: 100%;
 
 }
 .monSlider-slide{
-  position : relative;
+	position : relative;
 
 }
 
 .monSlider-slide .informations{
-  position:absolute;
-  background:rgba(255,255,255,0.6);
-  bottom:0;
-  left:0;
-  width:100%;
+	position:absolute;
+	background:rgba(255,255,255,0.6);
+	bottom:0;
+	left:0;
+	width:100%;
 }
 
 .informations p, .informations h2{
-  padding-left:20px;
-  padding-right:20px;
+	padding-left:20px;
+	padding-right:20px;
 }
 
 .slick-prev{
-  left:25px;
-  z-index:99;
+	left:25px;
+	z-index:99;
 }
 
 .slick-next{
-  right:25px;
-  z-index:99;
+	right:25px;
+	z-index:99;
 }
 
 /*************
@@ -138,132 +125,183 @@ INDEX
 
 ************/
 .jeuxConcours {
-  background-image: url("../images/bois.jpg");
-  background-size: initial;
-  background-position: center top;
-  padding-top: 30px;
-  height: 400px;
-  font-family: TerminalDosisBold;
-  color: #000000;
+	background-image: url("../images/bois.jpg");
+	background-size: initial;
+	background-position: center top;
+	padding: 50px 0 50px;
+	font-family: TerminalDosisBold;
+	color: #000000;
+}
+
+.jeuxConcours img{
+  margin-top: 25px;
 }
 
 .tag{
-  font-family: alamain;
-  color: #000000;
+	font-family: alamain;
+	color: #000000;
 }
 
 div {
-  text-align:center;
+	text-align:center;
 }
 
 .textContener{
-  font-family: TerminalDosisBold;
+	font-family: TerminalDosisBold;
+	margin:0 200px 0;
 }
 
 .titreContener{
-  font-family: alamain;
+	font-family: alamain;
 }
 
 .contener {
-  background-size: initial;
-  background-position: center top;
-  padding-top: 30px;
-  height: 400px;
-  font-family: TerminalDosisBold;
-  color: #000000;
+	background-size: initial;
+	background-position: center top;
+	padding: 75px 0 50px;
+	font-family: TerminalDosisBold;
+	color: #000000;
 }
 
-#tv{
-  background-image:url("../images/CoconutTv.png");
+.contener a {
+  margin-top: 25px;
 }
+
+.contenerMap{
+	background-size: initial;
+	background-position: center top;
+	height: 500px;
+	font-family: TerminalDosisBold;
+	color: #000000;
+}
+
+#map canvas{
+  left: 0;
+}
+
+.contenerPartage	{
+	background-image: url("../images/patternpalmer.png");
+	max-width: 100%;
+	text-align: center;
+  padding: 50px 0 0;
+	font-family: TerminalDosisBold;
+	color: #000000;
+}
+
+.contenerPartage h2{
+  margin-bottom: 50px;
+}
+
+.contenerPartage>div{
+  margin-bottom: 50px;
+}
+
+#partage{
+	background-image: url("../images/patternpalmer.png");
+	max-width: 100%;
+	margin-bottom: 0;
+	text-align: center;
+}
+
 
 
 .bouton {
-  background-color:#ed237a;
-  -moz-border-radius:8px;
-  -webkit-border-radius:8px;
-  border-radius:8px;
-  border:1px solid #ed237a;
-  display:inline-block;
-  cursor:pointer;
-  color:#ffffff;
-  font-family:Arial;
-  font-size:18px;
-  padding:7px 26px;
-  text-transform: uppercase;
-  text-decoration:none;
-  text-shadow:0px 0px 0px #FFFFFF;
+	background-color:#ed237a;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:1px solid #ed237a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	padding:7px 26px;
+	text-transform: uppercase;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #FFFFFF;
 }
 .bouton:hover {
-  color: #FFFFFF;
-  background-color:#FF1493;
+	color: #FFFFFF;
+	background-color:#FF1493;
 }
 .bouton:active {
-  color: #FFFFFF;
-  position:relative;
-  top:1px;
+	color: #FFFFFF;
+	position:relative;
+	top:1px;
 }
 
+#imageConcours{
+	height: 200px;
+	width: 500px;
+}
 /****************
 
 COCONUTTOUR
 
 ******************/
 
+.descriptionCoconutTour{
+  padding: 50px 0;
+}
+
+.descriptionCoconutTour h2{
+  text-align: left;
+}
+
+.descriptionCoconutTour p{
+  text-align: left;
+}
+
 #coconutTour h2{
-  font-family: Big Bimbo NC;
-  color: #99CA3C;
+	font-family: Big Bimbo NC;
+	color: #99CA3C;
 }
 
 #coconutTour li, p{
-  font-family: TerminalDosisRegular;
+	font-family: TerminalDosisRegular;
 }
 
 #coconutTour h3, h4{
-  font-family: TerminalDosisBold;
+	font-family: TerminalDosisBold;
 }
 
 section.eventDate h3,
 section.eventDate h4 {
-  color: #003245;
+	color: #003245;
 }
 
 section.eventDate{
-  min-height: 375px;
-  background-image: url(../images/bois.jpg);
-  text-align: center;
+	min-height: 375px;
+  padding: 50px 0 50px;
+	background-image: url(../images/bois.jpg);
+	text-align: center;
 }
 
 section.eventDate ul{
-  list-style-type: none;
-  margin-left: 0px;
-  margin-right: 0px;
+	list-style-type: none;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 nav.menuEventDate ul li.button{
-  background: #003245;
-  color: #A2FFC9;
-  transition: all linear 250ms;
-  margin-bottom: 0px;
-  font-size: 15px;
+	background: #003245;
+	color: #A2FFC9;
+	transition: all linear 250ms;
+	margin-bottom: 0px;
+	font-size: 15px;
 }
 
 nav.menuEventDate ul li.button:hover{
-  background: #A2FFC9;
-  color: #003245;
+	background: #A2FFC9;
+	color: #003245;
 }
 
 .listeJuin, .listeJuillet{
-  display:none;
+	display:none;
 }
 
 
-/*  PARTAGER  */
-
-#partage{
-  text-align: center;
-  margin-bottom: 25px;
-}
 
 /**************
 
@@ -271,15 +309,14 @@ COCONUTTV
 
 ***************/
 
-#bgVideo{
-  background-image: url('../images/youtubeBg.png');
-  width: auto;
-  max-height: 100%;
-}
 
 .contenerYT {
-  padding-top: 30px;
-  height: auto;
+	padding-top: 10px;
+	height: auto;
+}
+#tv{
+	background:url("../images/cocotv.png");
+	max-width: 100%;
 }
 
 /*************
@@ -290,67 +327,107 @@ FOOTER
 
 
 footer{
-  background:url("../images/banniere-palmer.png");
-  height: 350px;
-  color: #FFFFFF;
-  text-align: center;
-  margin: 0px 0 0;
-  box-sizing:border-box;
-  box-shadow: 0px 1px 3px 5px rgba(0,0,0,.1);
-  clear:both;
-  font-family: sans-serif;
-  font-weight: 200;
-  font-size: 14px;
+	background:url("../images/banniere-palmer.png");
+	height: 350px;
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0px 0 0;
+	box-sizing:border-box;
+	box-shadow: 0px 1px 3px 5px rgba(0,0,0,.1);
+	clear:both;
+	font-family: sans-serif;
+	font-weight: 200;
+	font-size: 14px;
 }
 
 footer a{
-  color: inherit;
-  text-decoration: none;
-  font-size: 17px;
+	color: inherit;
+	text-decoration: none;
+	font-size: 17px;
 }
 
 footer ul{
-  padding-top: 50px;
-  margin: 0 0 30px;
+	padding-top: 50px;
+	margin: 0 0 30px;
 }
 
 footer li{
-  display: inline-block;
-  padding:  0 15px;
-  font-size: 40px;
+	display: inline-block;
+	padding:  0 15px;
+	font-size: 40px;
 }
 
 .jungle-separator {
-  height: 20px;
-  background-image: url(../images/separateur.png);
-  background-repeat: repeat-x;
+	height: 20px;
+	background-image: url(../images/separateur.png);
+	background-repeat: repeat-x;
 }
 
 .jungle-separator, .separator {
-  width: 100%;
-  position: relative;
+	width: 100%;
+	position: relative;
 }
 .palmier-gauche {
-  background-image: url(../images/palmierGauche.png);
-  left: 0;
-  top: 0;
-  max-width: 275px;
-  max-height: 275px;
+	background-image: url(../images/palmierGauche.png);
+	left: 0;
+	top: 0;
+	max-width: 275px;
+	max-height: 275px;
 }
 
 .palmier-droite {
-  background-image: url(../images/palmierDroit.png);
-  right: 0;
-  top: 0;
-  max-width: 375px;
-  max-height: 375px;
+	background-image: url(../images/palmierDroit.png);
+	right: 0;
+	top: 0;
+	max-width: 375px;
+	max-height: 375px;
 }
 
 .palmier-droite, .palmier-gauche {
-  width: 20vw;
-  height: 20vw;
-  position: absolute;
-  z-index: 2;
-  background-size: contain;
-  background-repeat: no-repeat;
+	width: 20vw;
+	height: 20vw;
+	position: absolute;
+	z-index: 2;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .title-bar-title{
+    width: calc(100% - 60px);
+  }
+
+  .top-bar a{
+    color: black;
+  }
+
+  .top-bar{
+    padding: 0;
+  }
+
+	.title-bar-title img{
+		height: 30px;
+	}
+
+	.title-bar{
+    text-align: left;
+		background-color: antiquewhite;
+	}
+
+  .textContener{
+    margin: 0 20px;
+  }
+
+	.top-bar li{
+		text-align: center;
+		display: block;
+		width: 100%;
+		background-color:transparent;
+
+	}
+  
+	.top-bar, .top-bar ul, .top-bar li{
+		height: auto;
+	}
 }

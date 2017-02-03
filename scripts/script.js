@@ -29,4 +29,3 @@ document.querySelector(".buttonJuillet").onclick = function () {
 		document.querySelector(".listeJuillet").style.display = "none";
 	}
 };
-View

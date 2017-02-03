@@ -20,10 +20,10 @@
 			</ul> -->
 			<p>© 2017 Vaivai SAS Conditions d’utilisation Mentions légales Vie privée</p>
 			<p><img src="images/logo.png" alt="logo"/></p>
-			
+
 		</footer>
-		
-		
+
+
 
 	<script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -42,9 +42,6 @@
 		fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));
 </script>
-
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="scripts/vendor/slick.min.js"></script>
 <script src="scripts/script.js"></script>
 <script src="scripts/vendor/foundation.min.js"></script>
